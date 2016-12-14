@@ -82,3 +82,9 @@ elems2 =  {'DNA repair','protein binding','DNA repair','nucleoplasm'}
 print(elems | elems2)
 #intersection operation 
 print(elems & elems2)
+#Difference operartion
+print(elems - elems2)
+print(elems2 - elems)
+val = 1.234567 * 10 ** 6
+print(val)
+print(0x12)
