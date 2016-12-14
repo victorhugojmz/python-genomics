@@ -75,4 +75,10 @@ print(stack)
 t = 1,2,3
 type(t)
 print(t)
-
+#Sets are an unordered collection with no dupplicate elements, supports mathematical operators such as Union, interserction and difference
+elems = {'DNA repair','zinc ion binding','ubiquitin protein','DNA repair'}
+elems2 =  {'DNA repair','protein binding','DNA repair','nucleoplasm'} 
+#Union Operation
+print(elems | elems2)
+#intersection operation 
+print(elems & elems2)
