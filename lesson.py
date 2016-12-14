@@ -1,0 +1,51 @@
+#managing strings
+#coding=utf-
+dna = "gtaccccccctagata"
+print(dna[0])
+print(dna[-3])
+print(dna[0:8])
+print(dna[:8])
+print(dna[6:])
+print(dna[3:len(dna)])
+num = dna.count('c')
+print(num)
+dna_u = dna.upper()
+print(dna_u)
+pos = dna.find('ta')
+print(pos)
+pos2 = dna.find('ta',3)
+print(pos2)
+pos3 = dna.rfind('ta')
+print(pos3)
+string = "LOLhhhhhh"
+bolstr = string.islower()
+print(bolstr)
+newstr = dna.replace('g','G')
+print(newstr) 
+print(dna)
+dna = 'acgtcgcgcggcgatagctgatcgatcggcgcgctttttttttaaaag'
+numc  = dna.count('c')
+dnastring = raw_input("Insert dna string")
+#it counts the number of characters in one string
+nuc = dnastring.count('c')
+nug = dnastring.count('g')
+#len()takes the lenght of a string (int)
+lenght_dna =  len(dnastring)
+percent = (nuc+nug)*100.0/lenght_dna
+print(str(percent) +'%')
+chr(65)
+list_ = ['Victor', 2230,'gtctctctctcgacccaattatagatatgaga',5.16e-08]
+for _ in list_: 
+    print (_)
+print(list_[0])#prints the first element of list_
+#Slice an element inside an object in pos -3
+posminusthree = list_[-3:]
+print(posminusthree)
+allelements = list_[:]
+print(allelements)
+#this will clean all elements in list_
+list_[:] = [ ]
+print(list_)
+#concatenation between lists 
+list_two = list_+['POS',20,1996]
+print(list_two)
