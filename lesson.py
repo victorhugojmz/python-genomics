@@ -49,3 +49,6 @@ print(list_)
 #concatenation between lists 
 list_two = list_+['POS',20,1996]
 print(list_two)
+sliced_list = list_two[0:2]
+print(sliced_list)
+sliced_list = list_two[0:len(list_two)]
