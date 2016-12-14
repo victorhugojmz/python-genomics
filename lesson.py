@@ -57,3 +57,8 @@ print(list_two)
 #Counting number of times  pos string inside list  
 elemwithpos = list_two.count('POS')
 print(elemwithpos)
+l = [0,'One',2,'three',4,'five']
+#The method reverse reverses all elements in the list 
+l.reverse()
+print(l)
+#List as Stacks
