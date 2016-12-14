@@ -69,3 +69,10 @@ print(last)
 #Sorting list samples
 s  = sorted(stack)
 print(s)
+stack.sort()#sort method modifies the list
+print(stack)
+#Tuples son una estructura de datos como strings y listas
+t = 1,2,3
+type(t)
+print(t)
+
