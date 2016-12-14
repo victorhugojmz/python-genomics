@@ -52,3 +52,8 @@ print(list_two)
 sliced_list = list_two[0:2]
 print(sliced_list)
 sliced_list = list_two[0:len(list_two)]
+del(list_two[1])
+print(list_two)
+#Counting number of times  pos string inside list  
+elemwithpos = list_two.count('POS')
+print(elemwithpos)
