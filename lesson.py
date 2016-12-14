@@ -62,3 +62,7 @@ l = [0,'One',2,'three',4,'five']
 l.reverse()
 print(l)
 #List as Stacks
+stack = ['a','b','c']
+stack.append('s')
+last = stack.pop()
+print(last)
